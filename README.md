@@ -181,3 +181,5 @@ GET /api/stats — View document statistics
 ## Conclusion
 
 This project demonstrates a practical and effective approach to transforming how users interact with HPE OneView documentation.By replacing manual document navigation with prompt-based interaction, the system significantly reduces effort and improves efficiency. The core objective of enabling users to obtain precise, context-grounded answers through a single prompt has been successfully achieved. The solution provides a strong foundation for further development into a production-grade documentation intelligence system.
+
+Demo Recording: https://tinyurl.com/ov-chatbot-demo-recording
