@@ -23,42 +23,52 @@ To eliminate the need for tedious manual documentation navigation and enable use
 
 ### 1. Enable natural language interaction with documentation
 Status: Achieved
+
 Users can query the system conversationally and receive structured answers.
 
 ### 2. Reduce dependency on manual documentation search
 Status: Achieved
+
 The system shifts the experience from document-first to prompt-first interaction.
 
 ### 3. Provide accurate, context-grounded responses
 Status: Achieved
+
 All answers are generated using retrieved documentation content, reducing hallucination.
 
 ### 4. Include source citations for trust and verification
 Status: Achieved
+
 Each response includes references to source documents and pages.
 
 ### 5. Deliver a fast and responsive user experience
 Status: Achieved
+
 Low-latency response generation using optimized models ensures quick interactions.
 
 ### 6. Maintain conversational context for follow-up queries
 Status: Achieved
+
 The system supports short multi-turn conversations using recent chat history.
 
 ### 7. Support multiple documentation sources (PDF + Web)
 Status: Achieved
+
 The system ingests both PDF documents and web-based API references.
 
 ### 8. Build a lightweight and deployable architecture
 Status: Achieved
+
 The solution is optimized for deployment with minimal infrastructure overhead.
 
 ### 9. Ensure scalability of the retrieval pipeline
 Status: Achieved (for current scope)
+
 The architecture supports extension to larger document sets with minimal changes.
 
 ### 10. Provide an intuitive and clean user interface
 Status: Achieved
+
 The frontend offers a simple, focused chat-based interaction model.
 
 ## Overall Outcome
@@ -123,20 +133,20 @@ The system follows a modular architecture with clear separation of concerns:
 
 ## Project Structure
 
-hpe-rag-chatbot/
-├── config.py
-├── embeddings.py
-├── ingest.py
-├── pdf_processor.py
-├── web_scraper.py
-├── rag_engine.py
-├── server.py
-├── chroma_db/
-├── pdfs/
-└── static/
-    ├── index.html
-    ├── css/styles.css
-    └── js/app.js
+hpe-rag-chatbot/  
+├── config.py  
+├── embeddings.py  
+├── ingest.py  
+├── pdf_processor.py  
+├── web_scraper.py  
+├── rag_engine.py  
+├── server.py  
+├── chroma_db/  
+├── pdfs/  
+└── static/  
+    ├── index.html  
+    ├── css/styles.css  
+    └── js/app.js  
 
 ## Setup Instructions
 
